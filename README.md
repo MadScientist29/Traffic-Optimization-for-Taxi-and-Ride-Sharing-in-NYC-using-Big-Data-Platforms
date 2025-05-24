@@ -57,17 +57,18 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 ├── README.md
 ├── 603_project_s3 Colab.pdf
 │
-├── data/
+├── Data/
 │   └── taxi+_zone_lookup (3).csv
+    └── traffic_04_05.csv
+    └── Traffic_Volume_Counts_20250405.csv
 │
-├── notebooks/
-│   └── [Jupyter notebooks for data processing and analysis]
+├── Notebooks/
+│   └── Main notebook for data processing and analysis
 │
-├── reports/
-│   └── [Detailed analysis reports]
-│
-└── scripts/
-    └── [Spark and Hive scripts used in the project]
+├── Docs/
+│   └── Detailed Executive Summary
+
+
 </pre>
 
 ## 📄 Files Included
