@@ -55,7 +55,6 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
   Traffic-Optimization-for-Taxi-and-Ride-Sharing-in-NYC-using-Big-Data-Platforms/
 │
 ├── README.md
-├── 603_project_s3 Colab.pdf
 │
 ├── Data/
 │   └── taxi+_zone_lookup (3).csv
@@ -67,7 +66,8 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 │
 ├── Docs/
 │   └── Detailed Executive Summary
-
+└── Presentation/
+    └── Presentation slides and PDF
 
 </pre>
 
