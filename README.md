@@ -20,6 +20,13 @@ We utilized the **New York City Taxi and Limousine Commission (TLC)** trip recor
 - **Fare Information:** Total fare, tip amount, payment type.
 - **Geospatial Data:** Taxi zone lookup for mapping trips to specific NYC zones.
 
+
+- [NYC Yellow Taxi Trip Data (Parquet)](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+- [NYC Traffic Volume Counts (CSV)](https://data.cityofnewyork.us/)
+- Location Zone Lookup Table
+
+All data was stored and accessed via **AWS S3 Buckets** for scalability and cloud-based processing.
+
 ---
 
 ## 🔍 Methodology
@@ -72,6 +79,22 @@ We utilized the **New York City Taxi and Limousine Commission (TLC)** trip recor
 
 ---
 
+## 🔧 Tools and Technologies
+
+| Category           | Tools Used                          |
+|--------------------|-------------------------------------|
+| Data Processing    | Apache Spark, PySpark, Pandas       |
+| Data Storage       | AWS S3, CSV, Parquet                |
+| Machine Learning   | Spark MLlib (GBT Regressor, RF)     |
+| Visualization      | Matplotlib, Seaborn                 |
+| Development        | Google Colab                        |
+
+### ⚡ Why Apache Spark?
+- Handles large-scale datasets efficiently
+- Supports distributed computing for fast processing
+- Built-in MLlib for scalable machine learning
+
+---
 ## ✅ Key Findings
 
 - **High Demand Zones**: Midtown Manhattan and JFK Airport showed the most ride activity.
