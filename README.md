@@ -111,8 +111,8 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 - **Smart Pricing**: Implement dynamic fares to encourage off-peak usage.
 
 ---
-
 ## 📬 Contact
 
-For queries or collaboration, please reach out via GitHub or connect with any team member through UMBC's Data Science program.
+For queries, collaboration, or feedback, feel free to reach out  via GitHub or email.
 
+---
