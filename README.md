@@ -6,13 +6,13 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to optimize traffic flow and improve ride-sharing efficiency in New York City by leveraging big data platforms. By analyzing traffic volume and ride-sharing data using scalable tools like Apache Spark and Hadoop, we provide strategic insights for better route planning and resource allocation.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 We utilized the **New York City Taxi and Limousine Commission (TLC)** trip record data, encompassing millions of taxi and ride-sharing trips. Key features include:
 
@@ -29,7 +29,7 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 1. **Data Ingestion and Storage**
    - Loaded TLC datasets into Hadoop Distributed File System (HDFS).
@@ -49,7 +49,7 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 <pre>
   Traffic-Optimization-for-Taxi-and-Ride-Sharing-in-NYC-using-Big-Data-Platforms/
@@ -71,7 +71,7 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 
 </pre>
 
-## 📄 Files Included
+## Files Included
 
 - `603_project_s3 Colab.pdf`: Final report including results, graphs, and conclusions.
 - `taxi+_zone_lookup (3).csv`: NYC Taxi Zone Lookup data.
@@ -80,7 +80,7 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 
 ---
 
-## 🔧 Tools and Technologies
+## Tools and Technologies
 
 | Category           | Tools Used                          |
 |--------------------|-------------------------------------|
@@ -90,13 +90,13 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 | Visualization      | Matplotlib, Seaborn                 |
 | Development        | Google Colab                        |
 
-### ⚡ Why Apache Spark?
+### Why Apache Spark?
 - Handles large-scale datasets efficiently
 - Supports distributed computing for fast processing
 - Built-in MLlib for scalable machine learning
 
 ---
-## ✅ Key Findings
+## Key Findings
 
 - **High Demand Zones**: Midtown Manhattan and JFK Airport showed the most ride activity.
 - **Ride-Sharing Potential**: ~30% of trips had overlapping routes within 5-minute intervals.
@@ -104,14 +104,14 @@ All data was stored and accessed via **AWS S3 Buckets** for scalability and clou
 
 ---
 
-## 📈 Recommendations
+## Recommendations
 
 - **Dynamic Routing**: Use real-time congestion data for adaptive path planning.
 - **Encourage Ride-Sharing**: Especially in dense zones like Midtown during peak hours.
 - **Smart Pricing**: Implement dynamic fares to encourage off-peak usage.
 
 ---
-## 📬 Contact
+## Contact
 
 For queries, collaboration, or feedback, feel free to reach out  via GitHub or email.
 
